@@ -8,7 +8,7 @@ class Profile extends Component {
         <p className="Bio">{this.props.person.biography}</p>
         <div className="Quote">
           <blockquote>&ldquo; {this.props.quote.content} &rdquo;</blockquote>
-          <div className="byline">&madash; {this.props.quote.source}</div>
+          <div className="byline">; {this.props.quote.source}</div>
         </div>
       </div>
     )
