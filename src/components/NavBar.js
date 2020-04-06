@@ -7,6 +7,7 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@material-ui/core/styles';
+import App from '../containers/App';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -91,4 +92,4 @@ export default function MenuListComposition() {
     </div>
   )
 }
-  // export default NavBar
+  // export default App
